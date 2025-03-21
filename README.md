@@ -1,4 +1,4 @@
-# ✨ Ứng dụng Jetpack Compose ✨
+# ✨ Thực hành Jetpack Compose ✨
 
 Ứng dụng sử dụng **Jetpack Compose** với 3 màn hình chính:
 
@@ -16,7 +16,7 @@
 - ✅ Nút **Back** để quay lại danh sách.
 - ✅ Nút **BACK TO ROOT** để quay về màn hình gốc.
 
-## 🎬 Demo Ứng dụng
+## 🎬 Demo
 <p align="center">
   <img src="Test_app-ezgif.com-video-to-gif-converter.gif" width="350">
 </p>
