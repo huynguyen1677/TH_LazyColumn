@@ -14,5 +14,10 @@
 - Hiển thị nội dung chi tiết của câu trích dẫn đã chọn.
 - Nút Back để quay về danh sách.
 - Nút BACK TO ROOT để quay về màn hình gốc.
-  
-![Demo](Test_app-ezgif.com-video-to-gif-converter.gif)
+
+<div style="text-align: center;">
+  <img src="Test_app-ezgif.com-video-to-gif-converter.gif" width="500">
+</div>
+
+
+
