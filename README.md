@@ -15,4 +15,4 @@
 - Nút Back để quay về danh sách.
 - Nút BACK TO ROOT để quay về màn hình gốc.
   
-https://github.com/huynguyen1677/TH_LazyColumn/blob/main/Test_app.webm
+![Demo](Test_app-ezgif.com-video-to-gif-converter.gif)
