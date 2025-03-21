@@ -16,7 +16,7 @@
 - Nút BACK TO ROOT để quay về màn hình gốc.
 
 <div style="text-align: center;">
-  <img src="Test_app-ezgif.com-video-to-gif-converter.gif" width="500">
+  <img src="Test_app-ezgif.com-video-to-gif-converter.gif" width="350">
 </div>
 
 
