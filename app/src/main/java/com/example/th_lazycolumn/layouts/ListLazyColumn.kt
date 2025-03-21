@@ -18,9 +18,12 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
@@ -80,9 +83,31 @@ fun ComponentItem(idTitle: String, description: String, onClick: () -> Unit) {
         shape = RoundedCornerShape(10.dp),
         colors = CardDefaults.cardColors(Blue_background_box)
     ) {
-        Row(modifier = Modifier.padding(16.dp)) {
-            Text(idTitle + " | ", fontSize = 16.sp,)
-            Text(description, fontSize = 16.sp)
+        Row(
+            modifier = Modifier.padding(5.dp)
+                .fillMaxWidth(),
+            verticalAlignment = Alignment.CenterVertically,
+
+
+        ) {
+
+            Row(modifier = Modifier.padding(16.dp)
+                .weight(0.7f)
+
+                ) {
+                Text(idTitle + " | ", fontSize = 16.sp,)
+                Text(description, fontSize = 16.sp)
+
+
+            }
+            Icon(
+                painter = painterResource(id = R.drawable.ic_back_right),
+                contentDescription = "Back",
+                modifier = Modifier
+                    .size(30.dp)
+            )
+
         }
+
     }
 }
